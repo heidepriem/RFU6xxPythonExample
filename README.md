@@ -1,9 +1,10 @@
 # RFU6xxPythonExample
-An example of connecting an using RFU6xx with AIM AutoID spec. with Python asyncua (freeopcua)
+An example of connecting and using a SICK RFU6xx (RFID reader) with AIM AutoID spec. with Python asyncua (freeopcua).
 
 The main() function is in RFU6xxOPCUAExample.py. It uses "asyncua" which is said to be the better OPC UA implementation.
-Install: 
->> pip install asyncua
+
+Use PIP prior to using the script:
+> pip install asyncua
 
 The class encapsulating the functions
 StartScan()
