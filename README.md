@@ -4,6 +4,7 @@ An example of connecting an using RFU6xx with AIM AutoID spec. with Python async
 The main() function is in RFU6xxOPCUAExample.py. It uses "asyncua" which is said to be the better OPC UA implementation.
 Install: 
 >> pip install asyncua
+
 The class encapsulating the functions
 StartScan()
 StopScan()
